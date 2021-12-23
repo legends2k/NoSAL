@@ -13,6 +13,9 @@ possible or doing so leads compiler errors in GCC and Clang.
 Unless your project code uses SAL annotations, it should be safe to disable it
 in third-party code.
 
+Thanks to [cmake-init][], a handy tool for project creation.
+
 
 [SAL]: https://docs.microsoft.com/en-us/cpp/c-runtime-library/sal-annotations
 [DXM]: https://github.com/Microsoft/DirectXMath
+[cmake-init]: https://github.com/friendlyanon/cmake-init
