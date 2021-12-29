@@ -65,8 +65,28 @@
 #endif
 #define _Inout_updates_bytes_(x)
 
+
+#ifdef _Use_decl_annotations_
+#undef _Use_decl_annotations_
+#endif
 #define _Use_decl_annotations_
+
+#ifdef _Analysis_assume_
+#undef _Analysis_assume_
+#endif
 #define _Analysis_assume_(x)
+
+#ifdef _Out_writes_bytes_
+#undef _Out_writes_bytes_
+#endif
 #define _Out_writes_bytes_(x)
+
+#ifdef _In_reads_bytes_
+#undef _In_reads_bytes_
+#endif
 #define _In_reads_bytes_(x)
+
+#ifdef _Success_
+#undef _Success_
+#endif
 #define _Success_(x)
